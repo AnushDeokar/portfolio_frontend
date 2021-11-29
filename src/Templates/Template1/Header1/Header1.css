@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#navbar1 {
+    padding: 10px;
+    /* background-color: beige; */
+    display: grid;
+    margin: 0;
+    grid-template-columns: 20% 20% 60%;
+}
+
+#leftNavbarColumn-1 {
+    font-size: 1.6rem;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+#rightNavbarColumn-1 {
+    margin: auto 10px;
+}
+
+#rightNavbarColumn-1 p{
+    cursor: pointer;
+    margin: 0px 30px;
+}

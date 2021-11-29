@@ -1,0 +1,16 @@
+.box{
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+}
+input{
+    padding:20px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+button{
+    padding:10px;
+    border: 1px solid black;
+    margin: auto;
+}
