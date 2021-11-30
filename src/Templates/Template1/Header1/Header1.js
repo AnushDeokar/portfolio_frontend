@@ -2,12 +2,7 @@ import React from "react";
 import "./Header1.css";
 
 export const Header = () => {
-    var styles = {
-        // right: 0,
-        display: 'flex',
-        float: 'right'
-        // margin: '40px'   
-    }
+
     return (
     <div id="navbar1">
         <div id="leftNavbarColumn-1">

@@ -30,7 +30,7 @@ export const Introduction1 = (props) => {
             <ImageList sx={{ width: 800, height: 400 }} cols={2} rowHeight={164}>
               <ImageListItem >
         
-              <img src={logo} alt="No Image" />
+              <img src={logo} />
                 </ImageListItem>
               </ImageList>
       </Grid>

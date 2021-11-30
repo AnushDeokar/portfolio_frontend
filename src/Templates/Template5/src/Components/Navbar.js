@@ -7,13 +7,11 @@ import { Menu } from "@mui/icons-material";
 export const Navbar = ({
   drawerWidthLeft,
   drawerWidthRight,
-  mobileOpenRight,
+
   handleDrawerToggleLeft,
   handleDrawerToggleRight,
 }) => {
-  const rightIconStyle = {
-    display: mobileOpenRight ? "none" : "block",
-  };
+  
   return (
     <AppBar
       position="relative"

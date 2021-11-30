@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./Components/Main";
+// import Main from "./Components/Main";
 import { Link } from 'react-router-dom';
 import { Router } from "@mui/icons-material";
 
@@ -42,7 +42,7 @@ function Template3() {
         </Layout>
       </Router>
       
-      // <Router>
+      {/* // <Router>
       // <Layout>
       //   <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Portfolio</Link>} scroll>
       //     <Navigation>
@@ -65,7 +65,7 @@ function Template3() {
           
       //   </Content>
       // </Layout>
-      // </Router>
+      // </Router> */}
       </>
     
   );

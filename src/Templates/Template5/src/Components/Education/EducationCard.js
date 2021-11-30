@@ -1,9 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/styles";
 import { Grid, Typography } from "@mui/material";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import GradeIcon from "@mui/icons-material/Grade";
-import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+// import LocationOnIcon from "@mui/icons-material/LocationOn";
+// import GradeIcon from "@mui/icons-material/Grade";
+// import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 
 const useStyles = makeStyles({
   projectsCard: {

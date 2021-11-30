@@ -4,16 +4,16 @@ import { makeStyles } from '@material-ui/core';
 import { Grid, Typography } from '@mui/material'
 
 
-const useStyles = makeStyles({
-  imgi:{
-     width:"50%",
-     height:"auto", 
-  },
-  pad:{
-      padding:"2%",
-  }
+// const useStyles = makeStyles({
+//   imgi:{
+//      width:"50%",
+//      height:"auto", 
+//   },
+//   pad:{
+//       padding:"2%",
+//   }
 
-});
+// });
 
 
 const Card = (props) => {
@@ -52,7 +52,7 @@ const Card = (props) => {
 };
 
 function Projects1(props) {
-  const classes = useStyles();
+  // const classes = useStyles();
   return (
     <section className="text-gray-600 body-font mr-20 ml-20">
       <div className="container px-5 py-24 mx-auto">

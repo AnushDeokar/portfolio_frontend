@@ -7,7 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
 // import { useRef } from 'react';
-import { ModalComponent } from './ModalComponent';
+// import { ModalComponent } from './ModalComponent';
 import logo from '../../../Images/imgalt.PNG'
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';

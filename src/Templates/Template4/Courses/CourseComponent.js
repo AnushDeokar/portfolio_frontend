@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Typography, Grid, CardActionArea } from '@material-ui/core';
 import {makeStyles} from '@material-ui/core';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import { Posts } from './Posts';
 import Card from '@mui/material/Card';
 
@@ -37,12 +37,13 @@ const useStyles = makeStyles({
 });
 export const CourseComponent = () => {
     const classes  = useStyles();
-    const [state, setstate] = useState(0);
+    // const [state, setstate] = useState(0);
+    const state = 0;
 return (
     <div className={classes.mainDiv}>
         <div className={classes.head1}>
             <Typography variant="h2" align="center">
-                {state==0?<>Data Structures and Algorithms</>:<>Software</>}
+                {state===0?<>Data Structures and Algorithms</>:<>Software</>}
             </Typography>
             <Typography align="center" variant="h4">
                 CSL2010

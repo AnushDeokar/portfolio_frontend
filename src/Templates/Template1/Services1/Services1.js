@@ -1,7 +1,6 @@
 import React from "react";
 import "./Services1.css";
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import { makeStyles } from '@material-ui/core';
 import { Grid, Typography } from '@mui/material'

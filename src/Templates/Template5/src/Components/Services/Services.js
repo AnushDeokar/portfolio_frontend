@@ -1,6 +1,6 @@
-import { Grid, Typography, Icon } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import React from "react";
-import { ServicesCard } from "./ServicesCard";
+// import { ServicesCard } from "./ServicesCard";
 import { makeStyles } from "@material-ui/styles";
 import WebIcon from "@mui/icons-material/Web";
 import StorageIcon from '@mui/icons-material/Storage';

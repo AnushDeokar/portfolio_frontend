@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid, makeStyles, Typography } from "@material-ui/core";
 // import InstagramIcon from "@mui/icons-material/Instagram";
-import { TechStack } from "./TechStack";
+// import { TechStack } from "./TechStack";
 // import { Fa500Px } from "react-icons/fa";
 import { Footer } from "./Footer";
 

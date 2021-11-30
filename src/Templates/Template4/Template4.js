@@ -18,15 +18,15 @@ const theme = createTheme({
     },
   });
 
-const maincomponent = (props)=>{
-  <ThemeProvider theme={theme}>
-            <Section1 data={props.details}/>
-            <About data={props.details.pages}/>
-            <Projects data={props}/>
-            <Courses data={props.details}/>
-            <Skills data={props.details}/>
-        </ThemeProvider>
-}
+// const maincomponent = (props)=>{
+//   <ThemeProvider theme={theme}>
+//             <Section1 data={props.details}/>
+//             <About data={props.details.pages}/>
+//             <Projects data={props}/>
+//             <Courses data={props.details}/>
+//             <Skills data={props.details}/>
+//         </ThemeProvider>
+// }
 export const Template4 = (props) => {
     // console.log(props, "t4");
     return (

@@ -3,8 +3,8 @@ import Container from '@mui/material/Container';
 import { Grid, makeStyles, Typography } from '@material-ui/core';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Box from '@mui/material/Box';
+// import CardMedia from '@mui/material/CardMedia';
+// import Box from '@mui/material/Box';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import {CourseList} from './CourseList';
 import Link from '@mui/material/Link';
@@ -42,20 +42,11 @@ const useStyles = makeStyles({
 
 });
 
-const bull = (
-    <Box
-      component="span"
-      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-    >
-      •
-    </Box>
-  );
-  
+
 
 export const Courses = (props) => {
     const classes = useStyles();
-    const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
+
 //   const CourseList = props.data.courses;
 //   console.log(CourseList, "cl");
   let history = useHistory();

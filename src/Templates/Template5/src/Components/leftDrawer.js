@@ -7,56 +7,56 @@ import {
   Button,
  
   IconButton,
-  Icon,
+ 
 } from "@mui/material";
 import { Send } from "@mui/icons-material";
 import Typography from "@mui/material/Typography";
 import { makeStyles } from "@material-ui/styles";
-import { GitHub, Instagram, Twitter, Facebook } from "@mui/icons-material";
-import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
+import { GitHub,  Twitter, Facebook } from "@mui/icons-material";
+// import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 
 const drawerWidth = 280;
 
-const languagesSpoken = [
-  {
-    id: 1,
-    name: "Hindi",
-    value: 100,
-  },
-  {
-    id: 2,
-    name: "English",
-    value: 90,
-  },
-  {
-    id: 3,
-    name: "French",
-    value: 80,
-  },
-];
+// const languagesSpoken = [
+//   {
+//     id: 1,
+//     name: "Hindi",
+//     value: 100,
+//   },
+//   {
+//     id: 2,
+//     name: "English",
+//     value: 90,
+//   },
+//   {
+//     id: 3,
+//     name: "French",
+//     value: 80,
+//   },
+// ];
 
-const programmingLanguages = [
-  {
-    id: 4,
-    name: "C++",
-    value: 90,
-  },
-  {
-    id: 5,
-    name: "C",
-    value: 85,
-  },
-  {
-    id: 6,
-    name: "Python",
-    value: 80,
-  },
-  {
-    id: 7,
-    name: "Javascript",
-    value: 75,
-  },
-];
+// const programmingLanguages = [
+//   {
+//     id: 4,
+//     name: "C++",
+//     value: 90,
+//   },
+//   {
+//     id: 5,
+//     name: "C",
+//     value: 85,
+//   },
+//   {
+//     id: 6,
+//     name: "Python",
+//     value: 80,
+//   },
+//   {
+//     id: 7,
+//     name: "Javascript",
+//     value: 75,
+//   },
+// ];
 
 const techStack = [
   {
@@ -91,24 +91,24 @@ const techStack = [
   },
 ];
 
-const extraSkills = [
-  {
-    id: 14,
-    name: "VSCode",
-  },
-  {
-    id: 15,
-    name: "Heroku",
-  },
-  {
-    id: 16,
-    name: "Amazon EC2",
-  },
-  {
-    id: 17,
-    name: "Machine Learning",
-  },
-];
+// const extraSkills = [
+//   {
+//     id: 14,
+//     name: "VSCode",
+//   },
+//   {
+//     id: 15,
+//     name: "Heroku",
+//   },
+//   {
+//     id: 16,
+//     name: "Amazon EC2",
+//   },
+//   {
+//     id: 17,
+//     name: "Machine Learning",
+//   },
+// ];
 
 const myData = [
   {

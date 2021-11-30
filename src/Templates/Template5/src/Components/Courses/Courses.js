@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import { Grid, makeStyles, Typography } from '@material-ui/core';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
+// import CardMedia from '@mui/material/CardMedia';
 import Box from '@mui/material/Box';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import {CourseList} from './CourseList';
