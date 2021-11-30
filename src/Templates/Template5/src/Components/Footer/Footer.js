@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     padding: "10px",
     left: "0px",
     bottom: "0px",
-    position: "relative",
+    position: "fixed",
   },
 });
 
