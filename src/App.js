@@ -15,7 +15,7 @@ const theme = createTheme({
 function App() {
   return (
     <MuiThemeProvider theme={theme}>
-    <Router>  
+    {/* <Router>  
 
         <Switch>
             
@@ -23,7 +23,9 @@ function App() {
               <Route exact path="/course" component={CourseComponent}/>
             
         </Switch>     
-    </Router>
+    </Router> */}
+
+    <Master/>
     </MuiThemeProvider>
   );
 }

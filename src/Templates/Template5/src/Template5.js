@@ -10,6 +10,7 @@ import { Contact } from "./Components/Contact/Contact";
 import { createTheme } from "@mui/material";
 // import { amber, blue } from "@mui/material/colors";
 import { ThemeProvider } from "@emotion/react";
+import { CourseComponent } from "./Components/Courses/CourseComponent";
 
 const drawerWidthLeft = 280;
 const drawerWidthRight = 70;
@@ -56,6 +57,10 @@ function Template5(props) {
             <Route path="/contact">
               <Contact data={props.details}/>
             </Route>
+            <Route path="/course">
+              <CourseComponent data={props.details}/>
+            </Route>
+
           </Switch>
         </Layout>
       </Router>

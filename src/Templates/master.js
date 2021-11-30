@@ -19,7 +19,7 @@ class Master extends React.Component {
         
         axios.post('https://sitesheet.apoorvpal.in/api/sites/pages/all', credentials.User1)
             .then(response => {
-                console.log(response, "responses")
+                // console.log(response, "responses")
                 this.setState({
                     
                     ...this.state, // spreading in state for future proofing
