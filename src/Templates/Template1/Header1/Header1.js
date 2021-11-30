@@ -17,14 +17,14 @@ export const Header = () => {
             {/* <h2>Central</h2> */}
         </div>
         <div id="rightNavbarColumn-1">
-            <div style={styles}>
+            {/* <div style={styles}>
                 <p>Home</p>
                 <p>About</p>
                 <p>Services</p>
                 <p>Pages</p>
                 <p>Contact</p>
                 <p>Projects</p>
-            </div>
+            </div> */}
         </div>
         {/* <h2>Header of 1st template</h2> */}
     </div>

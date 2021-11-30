@@ -8,8 +8,8 @@ import Card from '@mui/material/Card';
 const useStyles = makeStyles({
 
     mainDiv: {
-        width: "100vw",
-        backgroundColor: '#F5BA13',
+        width: "auto",
+        backgroundColor: '#D3D3D3',
         height: 'auto',
         minHeight:'100vh',
         
@@ -22,9 +22,10 @@ const useStyles = makeStyles({
         padding:"15px",
     },
     mycard:{
-        width:"80%",
+        width:"auto",
         align:"center",
         margin:"20px",
+        marginRight:"50px"
         // padding:"20px",
     },
     subdiv:{
@@ -61,7 +62,7 @@ return (
 
             <Grid key = {data.id} item lg={12} >
             
-            <Card className={classes.mycard} style={{ minWidth: '80vw' }}>
+            <Card className={classes.mycard} >
             <CardActionArea className={classes.mycard2} >
                 <div style={{ display: "flex", justifyContent:"space-between" }}>
                     <Typography variant="h5" component="div" display="inline">
@@ -72,10 +73,18 @@ return (
                     </Typography>
                 </div>
 
+                
+
                 <Typography component="div">
                     {data.description}
                 </Typography> 
 
+                {data.id==1?<iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
+        frameborder='0'
+        allow='autoplay; encrypted-media'
+        allowfullscreen
+        title='video'
+/>:<></>}
                 
                 </CardActionArea>
             </Card>

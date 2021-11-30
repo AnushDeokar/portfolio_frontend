@@ -4,10 +4,12 @@ import { Typography } from "@mui/material";
 
 const useStyles = makeStyles({
   footerDiv: {
-    marginLeft: "calc(280px + 20px)",
-    marginRight: "calc(70px + 20px)",
+    // marginLeft: "calc(280px + 20px)",
+    // marginRight: "calc(70px + 20px)",
     marginTop: "30px",
     backgroundColor: "white",
+    minWidth:"80%",
+    align:"center",
     padding: "10px",
     left: "0px",
     bottom: "0px",

@@ -14,6 +14,7 @@ const useStyles = makeStyles({
     },
     pad: {
         padding: "2%",
+        
     }
 
 });
