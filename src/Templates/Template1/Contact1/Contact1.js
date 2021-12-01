@@ -6,7 +6,7 @@ import TextField from '@mui/material/TextField';
 import { Button } from "@mui/material";
 const useStyles = makeStyles({
   contact:{
-    backgroundColor:"#e6e6fa",
+    backgroundColor:"#ffffff",
   },
   primar:{
 
@@ -22,6 +22,11 @@ const useStyles = makeStyles({
     align:"center",
     alignContent:"center",
   }, 
+  textf:{
+    margin:"50px",
+
+  }
+
 
 });
 
@@ -29,20 +34,8 @@ function Contact1(props) {
   const classes = useStyles();
   return (
     <section className={classes.contact}>
-      <div>
-        <div >
-          <iframe
-            width="100%"
-            height="100%"
-            className="absolute inset-0"
-            style={{ filter: "grayscale(1) contrast(1.2) opacity(.4)" }}
-            frameBorder="0"
-            title="map"
-            marginHeight="0"
-            marginWidth="0"
-            scrolling="no"
-            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-          />
+      
+         
         <form className={classes.mform}>
         <div className={classes.primar}>
           <Typography variant="h5" align="center" margin={3}>
@@ -50,7 +43,7 @@ function Contact1(props) {
             </Typography>
 
           <div>
-          <TextField styles={{margin:"auto",}} className={classes.textb}id="outlined-basic" label="Name" variant="outlined" rows={1}/>
+          <TextField styles={{margin:"50px",}} className={classes.textb}id="outlined-basic" label="Name" variant="outlined" rows={1}/>
           <TextField id="outlined-basic" label="Email" variant="outlined" rows={1}/>
             
           </div>
@@ -61,6 +54,7 @@ function Contact1(props) {
               label="Message"
               multiline
               rows={5}
+              className={classes.textf}
           />
           </div>
           <Button variant="outlined">Submit</Button>
@@ -70,15 +64,14 @@ function Contact1(props) {
         <div className={classes.primar}>
             
               
-              <a  href={"mailto:" + "example@gmail.com"} className={`text-${props.theme}-500 leading-relaxed`}>
-                example@email.com
-              </a>
+              
+                <Typography> example@email.com</Typography>
+             
               
               123-456-7890
            
           </div>
-        </div>
-      </div>
+        
     </section>
   );
 }

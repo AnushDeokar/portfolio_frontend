@@ -14,18 +14,19 @@ const useStyles = makeStyles({
   pad:{
       margin:"5%",
       padding:"2%",
+      backgroundColor:"#E6E6FA"
   }
 
 });
 
-const MyCard = () => {
+const MyCard = ({data}) => {
   const classes = useStyles();
     return (
       <div className={classes.pad}>
         <Card margin={5} padding={5} sx={{ minWidth: 275 }}>
           <CardContent>
             <h1><i className="fas fa-archway"></i></h1>
-            <h2>Web Developer</h2>
+            <h2>{data}</h2>
             <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem modi quod
             nisi optio? Et minus atque ab, maiores saepe assumenda quis?
@@ -39,12 +40,12 @@ const MyCard = () => {
 export const Services1 = () => {
   return (
     <div id="services1">
-      <Typography variant="h3" margin={5}>Services Offers</Typography>
+      <Typography variant="h3" margin={5} align="center">Interests</Typography>
       <div >
         <Grid container>
-        <Grid item xs={12} md={6} lg={4}><MyCard /></Grid>
-        <Grid item xs={12} md={6} lg={4}><MyCard /></Grid>
-        <Grid item xs={12} md={6} lg={4}><MyCard /></Grid>
+        <Grid item xs={12} md={6} lg={4}><MyCard data="Machine learning"/></Grid>
+        <Grid item xs={12} md={6} lg={4}><MyCard data="Cryptograhy"/></Grid>
+        <Grid item xs={12} md={6} lg={4}><MyCard data="Deep Learning"/></Grid>
         </Grid>
       </div>
     </div>

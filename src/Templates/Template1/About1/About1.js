@@ -1,7 +1,7 @@
 import React from 'react'
 import './About1.css'
 import logo from './img/banner-image.png'
-import { Button, Grid } from '@mui/material'
+import {  Grid } from '@mui/material'
 import { makeStyles } from '@material-ui/core';
 // import ImageList from '@mui/material/ImageList';
 // import ImageListItem from '@mui/material/ImageListItem';
@@ -37,8 +37,8 @@ export const About1 = (props) => {
                         <h2>{brief}!</h2>
                         <div>
                             {/* <button>Hire Me</button> */}
-                            <Button style={{margin: "0px 5px 0px 5px"}} variant="outlined">Hire Me</Button>
-                            <Button variant="outlined">Resume</Button>
+                            {/* <Button style={{margin: "0px 5px 0px 5px"}} variant="outlined">Hire Me</Button>
+                            <Button variant="outlined">Resume</Button> */}
                             {/* <button>Resume</button> */}
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export const About1 = (props) => {
                 <Grid item xs={12} md={6} lg={6}>
                     {/* <ImageList sx={{ width: 800, height: 400 }} cols={3} rowHeight={164}> */}
                         {/* <ImageListItem > */}
-                            <img className={classes.imgi} src={logo} alt="No Image" />
+                            <img className={classes.imgi} src={logo} alt="" />
                         {/* </ImageListItem> */}
                     {/* </ImageList> */}
                 </Grid>

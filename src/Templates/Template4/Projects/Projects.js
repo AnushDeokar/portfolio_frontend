@@ -70,7 +70,7 @@ export const Projects = (props) => {
     const handleOpen = () => setOpen(true);
     
     const ProjectDetails = props.data.details.projects;
-    console.log(ProjectDetails, "p");
+    // console.log(ProjectDetails, "p");
     const handleClose = () => {setOpen(false);}
 //   const handleClose = () => {setOpen(false);}
     return (
